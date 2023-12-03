@@ -1,0 +1,17 @@
+/* General Settings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+html {
+    height: 100%;
+}
+
+/* Body Settings */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
