@@ -51,7 +51,6 @@ section>div {
     width: 100%;
     height: 41vh;
     background-color: rgb(195, 208, 147);
-    /* Consider using consistent shades of blue */
 }
 /* Footer Styles */
 footer {
@@ -75,5 +74,27 @@ footer {
 header nav a {
     text-decoration: none;
     color: #dced5c;
-    /* Culoarea linkurilor din bara de navigație */
+}
+/* Media Query for Larger Screens (min-width: 900px) */
+@media screen and (min-width: 900px) {
+    section>div {
+        font-size: 30px;
+    }
+}
+
+/* Media Query for Smaller Screens (max-width: 520px) */
+@media screen and (max-width: 520px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section>div {
+        font-size: 16px;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+    }
 }
