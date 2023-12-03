@@ -21,3 +21,12 @@ main {
     flex: 1;
     overflow-y: auto;
 }
+/* Hover Effect on Links */
+header nav a {
+    text-decoration: none;
+    color: #dced5c;
+}
+a:hover {
+    color: rgb(195, 208, 147);
+    /* Culoarea la hover pentru link-uri */
+}
