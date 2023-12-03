@@ -53,3 +53,27 @@ section>div {
     background-color: rgb(195, 208, 147);
     /* Consider using consistent shades of blue */
 }
+/* Footer Styles */
+footer {
+    width: 100%;
+    background-color: #7a9a5a;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+/* Container Styles */
+.container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
+    color: white;
+}
+/* Header Navigation Link Styles */
+header nav a {
+    text-decoration: none;
+    color: #dced5c;
+    /* Culoarea linkurilor din bara de navigație */
+}
