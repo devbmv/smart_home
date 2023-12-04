@@ -1,0 +1,33 @@
+/* Reset default styles for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Body Settings */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header Styles */
+header {
+    background-color:  #7a9a5a; /* Set background color for the header */
+    color: white; /* Set text color for the header */
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Set z-index to keep header above other elements */
+    border-bottom: 5px solid #74c437; /* Add a colored border at the bottom of the header */
+}
+
+/* Container styles for the navigation menu */
+header > nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
+}
