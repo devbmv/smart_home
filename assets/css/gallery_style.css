@@ -1,0 +1,31 @@
+/* Reset default styles for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Body Settings */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #333; /* Set default text color */
+}
+
+/* Hover Effect on Links */
+a:hover {
+    color: rgb(195, 208, 147); /* Change link color on hover */
+    /* Hover color for links */
+}
+
+/* Header Styles */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #7a9a5a; /* Set background color for the header */
+    color: white; /* Set text color for the header */
+    border-bottom: 5px solid #74c437; /* Add a colored border at the bottom of the header */
+}
