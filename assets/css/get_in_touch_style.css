@@ -1,171 +1,65 @@
-/* Reset default styles for all elements */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-/* Body Settings */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
+<head>
+    <!-- Meta tags for character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="assets/css/get_in_touch.css">
+    <!-- Title of the webpage -->
+    <title>Get in Touch - Smart Home</title>
+</head>
 
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Main heading for the webpage -->
+        <h1>Your Smart Home</h1>
+        <!-- Subheading providing additional information -->
+        <h2>Transform Your Home with Smart Technology</h2>
+        <!-- Navigation Menu -->
+        <nav>
+            <!-- Navigation Links -->
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="get_in_touch.html">Get In Touch</a>
+        </nav>
+    </header>
 
-/* Header Styles */
-header {
-    background-color:  #7a9a5a; /* Set background color for the header */
-    color: white; /* Set text color for the header */
-    position: sticky;
-    top: 0;
-    z-index: 100; /* Set z-index to keep header above other elements */
-    border-bottom: 5px solid #74c437; /* Add a colored border at the bottom of the header */
-}
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <!-- Contact Form -->
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <!-- Form Heading -->
+                <h2>Let's get in touch</h2>
 
-/* Container styles for the navigation menu */
-header > nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-    margin-right: 1rem;
-}
+                <!-- Input for Name -->
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
 
-/* Hover Effect on Links */
-header nav a {
-    text-decoration: none;
-    color: #dced5c; /* Set link color in the header navigation */
-}
+                <!-- Input for Email -->
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
 
-a:hover {
-    color: rgb(195, 208, 147); /* Change link color on hover */
-}
+                <!-- Textarea for Message -->
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
 
-/* Main content styles */
-main {
-    background-image: url("../images/smart-home.webp");
-    color: #e2e6e2; /* Set text color for the main content */
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 20% 0 10%;
-    flex-grow: 1;
-    flex: 1;
-}
+                <!-- Submit Button -->
+                <button class="my-button" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
 
-/* Section Styles */
-section {
-    max-width: 600px;
-    margin: 0 auto;
-}
+    <!-- Footer Section -->
+    <footer>
+        <!-- Contact and Legal Information -->
+        <p>Contact Us | Privacy Policy | Terms of Service</p>
+        <!-- Copyright Information -->
+        <p>&copy; 2023 Your Smart Home</p>
+    </footer>
+</body>
 
-/* Form Styles */
-form {
-    background-color:  #7a9a5a; /* Set background color for the form */
-    padding: 20px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    margin-bottom: 16px;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 16px;
-    background-color:  #d6f0bb; /* Set background color for input and textarea */
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Reset default styles for all elements */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-/* Body Settings */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-
-/* Header Styles */
-header {
-    background-color:  #7a9a5a; /* Set background color for the header */
-    color: white; /* Set text color for the header */
-    position: sticky;
-    top: 0;
-    z-index: 100; /* Set z-index to keep header above other elements */
-    border-bottom: 5px solid #74c437; /* Add a colored border at the bottom of the header */
-}
-
-/* Container styles for the navigation menu */
-header > nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-    margin-right: 1rem;
-}
-
-/* Hover Effect on Links */
-header nav a {
-    text-decoration: none;
-    color: #dced5c; /* Set link color in the header navigation */
-}
-
-a:hover {
-    color: rgb(195, 208, 147); /* Change link color on hover */
-}
-
-/* Main content styles */
-main {
-    background-image: url("../images/smart-home.webp");
-    color: #e2e6e2; /* Set text color for the main content */
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 20% 0 10%;
-    flex-grow: 1;
-    flex: 1;
-}
-
-/* Section Styles */
-section {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-/* Form Styles */
-form {
-    background-color:  #7a9a5a; /* Set background color for the form */
-    padding: 20px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    margin-bottom: 16px;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 16px;
-    background-color:  #d6f0bb; /* Set background color for input and textarea */
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
+</html>
