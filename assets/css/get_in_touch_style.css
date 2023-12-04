@@ -83,3 +83,89 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+/* Reset default styles for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Body Settings */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header Styles */
+header {
+    background-color:  #7a9a5a; /* Set background color for the header */
+    color: white; /* Set text color for the header */
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Set z-index to keep header above other elements */
+    border-bottom: 5px solid #74c437; /* Add a colored border at the bottom of the header */
+}
+
+/* Container styles for the navigation menu */
+header > nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+/* Hover Effect on Links */
+header nav a {
+    text-decoration: none;
+    color: #dced5c; /* Set link color in the header navigation */
+}
+
+a:hover {
+    color: rgb(195, 208, 147); /* Change link color on hover */
+}
+
+/* Main content styles */
+main {
+    background-image: url("../images/smart-home.webp");
+    color: #e2e6e2; /* Set text color for the main content */
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 20% 0 10%;
+    flex-grow: 1;
+    flex: 1;
+}
+
+/* Section Styles */
+section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Form Styles */
+form {
+    background-color:  #7a9a5a; /* Set background color for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    background-color:  #d6f0bb; /* Set background color for input and textarea */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
