@@ -44,7 +44,7 @@ a:hover {
 
 /* Main content styles */
 main {
-    background-image: url("../images/smart-home.webp");
+    background-image: url("../image/smart-home.webp");
     color: #e2e6e2; /* Set text color for the main content */
     background-size: cover;
     background-position: 75%;
