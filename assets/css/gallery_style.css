@@ -29,3 +29,28 @@ header {
     color: white; /* Set text color for the header */
     border-bottom: 5px solid #74c437; /* Add a colored border at the bottom of the header */
 }
+header>nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
+    color: white; /* Set text color for navigation links */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #dced5c; /* Set link color in the header navigation */
+}
+
+img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+/* Main Content Styles */
+main {
+    background-color: rgb(195, 208, 147); /* Set background color for the main content */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
