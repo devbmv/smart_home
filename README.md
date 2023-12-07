@@ -1,7 +1,7 @@
 # Smart Home Documentation
 
 Smart Home is a website designed to transform living spaces by integrating cutting-edge smart technologies. It provides seamless control over home automation, advanced security systems, and energy management solutions.
-A Smart Home website can be useful for various audiences,including homeowners,technology enthusiasts,home automation professionals,potential buyers and general audience.
+A Smart Home website can be useful for various audiences, including homeowners, technology enthusiasts, home automation professionals, potential buyers, and general audiences.
 
 ## Navigation Bar
 
@@ -25,22 +25,22 @@ A Smart Home website can be useful for various audiences,including homeowners,te
 
 ## The Footer
 
-- The footer section includes information like Contact Us, Privacy Policy and Terms of Service.
-- this information is a user-centric practice that enhances the overall functionality and user experience of website. It demonstrates that web site is approachable, responsive, and values communication with its audience.
+- The footer section includes information like Contact Us, Privacy Policy, and Terms of Service.
+- this information is a user-centric practice that enhances the overall functionality and user experience of the website. It demonstrates that the website is approachable and responsive, and values communication with its audience.
 
 ![Local Image](assets\image/footer_screenshot.png)
 
 ## Gallery
 
-- The gallery page will provide the user with products and lifeslyle associated with smart living.
-- This section is valuable to the users,because it will engage and inspire them,and will provide valuable information through compelling visuals.
+- The gallery page will provide the user with products and lifestyles associated with smart living.
+- This section is valuable to the users, because it will engage and inspire them, and will provide valuable information through compelling visuals.
 
 ![Local Image](assets\image/screenshot_gallery.png)
 
 ## The Get in Touch Page
 
-- This page will allow the user to get in touch to Smart Home sait.
-- The user will be asked to send their name and email address and live some message
+- This page will allow the user to get in touch with the Smart Home site.
+- The user will be asked to send their name and email address and leave a message
 
 ![Local Image](assets\image/get_in_touch_screenshot.png)
 
@@ -68,11 +68,11 @@ Our Smart Home project is designed to be compatible with modern web browsers.
 
 ### Responsiveness
 
-To ensure a seamless user experience across various devices,The project was tested and is responsiveness on different screen sizes includes desktops, laptops, tablets, and mobile devices.
+To ensure a seamless user experience across various devices, The project was tested and is responsive on different screen sizes including desktops, laptops, tablets, and mobile devices.
 
 ### Manual Functionality Testing
 
-Manually tested the functionality of our Smart Home project by interacting with each component and feature. The buttons, links, and interactive elements respond appropriately.Checked for visual inconsistencies or layout issues.
+Manually tested the functionality of our Smart Home project by interacting with each component and feature. The buttons, links, and interactive elements respond appropriately. Checked for visual inconsistencies or layout issues.
 
 ### Validator Testing
 
