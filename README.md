@@ -7,42 +7,42 @@ A Smart Home website can be useful for various audiences, including homeowners, 
 
 - Section-navigation bar includes links to the Home page, Gallery, and Get in Touch page and is identical on all three pages to help users find information easily.
 
-![Local Image](assets\image\header_screenshot.png)
+![Local Image](assets/image/header_screenshot.png)
 
 ## The landing page image
 
 - "As the saying goes, 'A picture is worth a thousand words.'
   A positive first video impression will provide a clear idea of the Smart Home presentation."
 
-![Local Image](assets\image/main_page_image.png)
+![Local Image](assets/image/main_page_image.png)
 
 ## Key Features section
 
 - The "Key Features" section on a Smart Home website is crucial for highlighting the main capabilities and benefits of the smart home solutions offered.
 - This section serves as a quick reference for visitors, showcasing what makes products or services on the site stand out.
 
-![Local Image](assets\image/key_features_screenshot.png)
+![Local Image](assets/image/key_features_screenshot.png)
 
 ## The Footer
 
 - The footer section includes information like Contact Us, Privacy Policy, and Terms of Service.
 - this information is a user-centric practice that enhances the overall functionality and user experience of the website. It demonstrates that the website is approachable and responsive, and values communication with its audience.
 
-![Local Image](assets\image/footer_screenshot.png)
+![Local Image](assets/image/footer_screenshot.png)
 
 ## Gallery
 
 - The gallery page will provide the user with products and lifestyles associated with smart living.
 - This section is valuable to the users, because it will engage and inspire them, and will provide valuable information through compelling visuals.
 
-![Local Image](assets\image/screenshot_gallery.png)
+![Local Image](assets/image/screenshot_gallery.png)
 
 ## The Get in Touch Page
 
 - This page will allow the user to get in touch with the Smart Home site.
 - The user will be asked to send their name and email address and leave a message
 
-![Local Image](assets\image/get_in_touch_screenshot.png)
+![Local Image](assets/image/get_in_touch_screenshot.png)
 
 ### Features Left to Implement
 
@@ -80,19 +80,19 @@ Manually tested the functionality of our Smart Home project by interacting with 
 
   - No errors were returned when passing through the official: <br>
     [Home Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home%2Findex.html)<br>
-    ![Local Image](assets\image/home_page_validator_html.png)<br>
+    ![Local Image](assets/image/home_page_validator_html.png)<br>
 
     [Gallery Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home%2Fgallery.html)<br>
-    ![Local Image](assets\image/home_page_validator_html.png)<br>
+    ![Local Image](assets/image/home_page_validator_html.png)<br>
 
     [Get in touch Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home%2Fget_in_touch.html)<br>
-    ![Local Image](assets\image/home_page_validator_html.png)<br>
+    ![Local Image](assets/image/home_page_validator_html.png)<br>
 
 - CSS
   - No errors were found when passing through the official:<br>
-    ![Home Page CSS Validator](assets\image/home_page_css_validator.png)<br>
-    ![Gallery CSS Validator](assets\image/gallery_validator_css.png)<br>
-    ![Get In Touch CSS Validator](assets\image/get_in_touch_validator_css.png)<br>
+    ![Home Page CSS Validator](assets/image/home_page_css_validator.png)<br>
+    ![Gallery CSS Validator](assets/image/gallery_validator_css.png)<br>
+    ![Get In Touch CSS Validator](assets/image/get_in_touch_validator_css.png)<br>
 
 ## Deployment
 
